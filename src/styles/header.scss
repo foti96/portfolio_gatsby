@@ -1,0 +1,22 @@
+header{
+    background: $black;
+    display: flex;
+    padding: 0.5rem;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    ul{
+        li{
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            a{
+                color: $white;
+                font-size: 1.5rem;
+                &:hover{
+                    color: $primary;
+                }
+            }
+        }
+    }
+}

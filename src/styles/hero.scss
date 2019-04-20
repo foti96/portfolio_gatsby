@@ -1,0 +1,41 @@
+.hero{
+    background: $primary;
+    height: 90vh;
+    min-height: 700px;
+    max-height: 1200px;
+    display: flex;
+    
+    .hero-text{
+        text-align: right;
+        color: white;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 2rem;
+        flex-direction: column;
+        h1{
+            font-size: 10rem;
+            
+        }
+        h3{
+            font-size: 6rem;
+            font-weight: normal;
+        }
+        @include bp(mobile){
+            h1{
+                font-size: 6rem;
+            }
+            h3{
+                font-size: 4rem;
+            }
+        }
+        
+        
+        
+    }
+    object{
+        max-width: 1300px;
+
+    }
+}

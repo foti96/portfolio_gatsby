@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+html, body, button, input, select, textarea{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+h1, h2, h3, h4,h5, h6{
+    font-weight: bold;
+}
+
+.work-container{
+    background: $black;
+}
+
+h2{
+    padding: 1rem 1rem 3rem;
+    font-size: 4rem;
+    text-align: center;
+    color: $white;
+}
+
+footer{
+    padding: 2rem;
+    text-align: center;
+    color: $white;
+    font-size: 1.5rem;
+    background: $black;
+}
