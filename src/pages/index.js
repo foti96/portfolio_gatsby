@@ -13,7 +13,7 @@ const IndexPage = () => (
   <React.Fragment>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <Header/>
-    <Hero heroText="Josh Foti" subText="Front-end Developer" />
+    <Hero heroText="Josh Foti" subText="Full-Stack Developer" />
     <Work/>
     <Profile/>
     <Form/>
