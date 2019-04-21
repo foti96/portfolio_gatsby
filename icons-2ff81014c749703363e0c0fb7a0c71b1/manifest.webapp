@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "name": "Josh Foti Portfolio",
+  "description": "",
+  "icons": {
+    "60": "/icons-2ff81014c749703363e0c0fb7a0c71b1/firefox_app_60x60.png",
+    "128": "/icons-2ff81014c749703363e0c0fb7a0c71b1/firefox_app_128x128.png",
+    "512": "/icons-2ff81014c749703363e0c0fb7a0c71b1/firefox_app_512x512.png"
+  },
+  "developer": {
+    "name": "Josh Foti",
+    "url": "https://wwww.joshfoti.net.au"
+  }
+}
